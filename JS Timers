@@ -3,10 +3,10 @@ function countDown(time){
     time--;
     if(time <= 0){
       clearInterval(timer);
-      return('DONE!');
+      console.log('DONE!');
     }
     else {
-      return(time);
+      console.log(time);
     }
 
   },1000)
